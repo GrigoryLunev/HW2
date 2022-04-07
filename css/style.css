@@ -1,0 +1,68 @@
+.container{
+	display: block;
+	width:85%;
+	margin: 0 auto;
+}
+
+.container .title{
+	text-align:center;
+}
+
+.container .game-section{
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.container .game-section .row{
+	flex: 1 0 100%;
+}
+
+.container .game-section .row-answer{
+	display: none;
+}
+
+.container .btn{
+	width: 4vw;
+	height: 4vw;
+	margin: 0.5vw 1.5vw;
+	text-align: center;
+	font-size: 3vw;
+	border: 1px solid #d4d4d4;
+	border-radius: 8px;
+	transition: background 2s ease 0s;
+}
+
+.submit-game{
+	text-align: center;
+	width: 100%;
+	margin-top: 3vw;
+}
+
+.submit {
+	box-shadow: 0px 1px 0px 0px #f0f7fa;
+	background: linear-gradient(to bottom, #33bdef 5%, #019ad2 100%);
+	background-color: #33bdef;
+	border-radius: 6px;
+	border: 1px solid #057fd0;
+	display: inline-block;
+	cursor: pointer;
+	color: #ffffff;
+	font-family: Arial;
+	font-size: 1.6vw;
+	font-weight: bold;
+	padding: 1vw 3vw;
+	text-decoration: none;
+	text-shadow: 0px -1px 0px #5b6178;
+}
+.submit:hover {
+	background:linear-gradient(to bottom, #019ad2 5%, #33bdef 100%);
+	background-color:#019ad2;
+}
+.submit:active {
+	position:relative;
+	top:1px;
+}
+
+.container .option-list{
+	margin-top:50px;
+}
